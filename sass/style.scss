@@ -1,0 +1,133 @@
+@import "compass/reset";
+@import "base";
+
+
+.thumbs {
+  ul {
+    margin: 0px 10px;
+    list-style: none;
+    }
+  li {
+	  width: 120px;
+	  display: inline-block;
+	  padding: 20px 18px 0 18px;
+	  vertical-align: top;
+	}
+  img {
+	  width: 110px;
+	  height: 110px;
+	  border: 3px solid white;
+	  border-radius: 22px;
+	}
+  a {
+	  font: bold 14px Calibri;
+	  color: #9ddf00;
+	  text-decoration: none;
+	  display: block;
+	}
+  p {
+	  font: 12px Calibri;
+	  color: #afafaf;
+	}			  
+}
+
+.content_footer {
+  display: inline;
+  font: bold 16px Calibri;
+  color: #9ddf00;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+/*NEWS + THUMB SECTION end*/
+
+/*ANGY BIRDS POSTS SECTION start*/
+.posts_post {
+  clear: both;
+  height: 324px;
+  width: 664px;
+  background-color: #252526;
+  border-radius: 10px;
+  margin-top: 23px;
+}
+
+.posts___left {
+  margin-left: 21px;
+  margin-top: 21px;
+  font: 12px Calibri;
+  float: left;
+  span {
+    color: #9a9a9a;
+   }
+  a {
+    color: #9ddf00;
+   }   
+}
+
+.add {
+  display: block;
+  text-align: right;
+  font: 12px Calibri;
+  color: #9a9a9a;
+}
+
+.posts___img {
+  width: 282px;
+  height: 172px;
+  margin-top: 10px;
+  background-image: url(../img/post.png);
+}
+
+.posts___right {
+  width: 320px;
+  margin-left: 19px;
+  margin-top: 21px;
+  float: left;
+  span {
+	  padding-top: 4px;
+	  font: bold 16px Calibri;
+	  color: #9ddf00;
+	  text-transform: uppercase;
+	}
+  h2 {
+	  padding-top: 4px;
+	  font: bold 18px Calibri;
+	  color: #ffffff;
+	  text-transform: uppercase;
+	}
+  p {
+	  display: block;
+	  display: -webkit-box;
+	  margin-top: 4px;
+	  height: 67px;
+	  font: 14px Calibri;
+	  color: #afafaf;
+	  -webkit-line-clamp: 4;
+	  -webkit-box-orient: vertical;
+	  overflow: hidden;
+	  text-overflow: ellipsis;
+	 }
+  button {
+    margin-top: 16px;}
+  a {
+    &:visited {
+    color: #9ddf00;
+            }
+  }  	 		
+}
+
+.posts____rt {
+  margin-top: 11px;
+  display: inline-block;
+  font: 14px Calibri;
+  color: #afafaf;
+}
+
+span.add {
+  text-transform: capitalize;
+  display: block;
+  text-align: right;
+  font: 12px Calibri;
+  color: #9a9a9a;
+}
+/*ANGY BIRDS POSTS SECTION end*/
